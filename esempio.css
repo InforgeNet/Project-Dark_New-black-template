@@ -2,3 +2,8 @@
 body {
   background-color: #2E3133;
 }
+
+#content .pageContent {
+ background-color: #5c6a70;
+ border: 1px solid #526066;
+}
