@@ -7,3 +7,16 @@ body {
  background-color: #5c6a70;
  border: 1px solid #526066;
 }
+
+.breadcrumb {
+    background-color: #c3d6de;
+    border: 1px solid #9fb0b7;
+}
+
+.breadcrumb .crust .arrow {
+    border-right: 1px none #9fb0b7;
+}
+
+.breadcrumb .crust a.crumb {
+    background-color: #c3d6de;
+}
