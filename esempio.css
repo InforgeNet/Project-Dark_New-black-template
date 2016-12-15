@@ -20,3 +20,10 @@ body {
 .breadcrumb .crust a.crumb {
     background-color: #c3d6de;
 }
+
+input#QuickSearchQuery {
+    background: #303233 none repeat scroll 0% 0%;
+    border-color: #505152;
+    color: rgb(255,255,255);
+    border-radius: 2px;
+}
