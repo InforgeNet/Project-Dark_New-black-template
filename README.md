@@ -8,3 +8,4 @@ Segui la discussione qui: https://www.inforge.net/xi/threads/team-project-dark-p
 + [Dazorn](https://www.inforge.net/xi/members/dazorn.216885/)
 + [Erchomai](https://www.inforge.net/xi/members/erchomai.242185/)
 + [Valley](https://www.inforge.net/xi/members/valley.141977/)
++ [SerNico](https://www.inforge.net/xi/members/sernico.240109/)
