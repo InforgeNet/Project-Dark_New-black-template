@@ -1,0 +1,36 @@
+/* Theme Inforge NET Work in progress
+*/
+
+body {
+  background-color: #2E3133;
+}
+
+#content .pageContent {
+ background-color: #5c6a70;
+ border: 1px solid #526066;
+}
+
+.breadcrumb {
+    background-color: #c3d6de;
+    border: 1px solid #9fb0b7;
+}
+
+.breadcrumb .crust .arrow {
+    border-right: 1px none #9fb0b7;
+}
+
+.breadcrumb .crust a.crumb {
+    background-color: #c3d6de;
+}
+
+input#QuickSearchQuery {
+    background: #303233 none repeat scroll 0% 0%;
+    border-color: #505152;
+    color: rgb(255,255,255);
+    border-radius: 2px;
+}
+
+.secondaryContent {
+    background-color: #4a4a4a;
+    padding: 8px;
+}
