@@ -1,6 +1,5 @@
 /* Theme Inforge NET Work in progress
 */
-
 body {
   background-color: #2E3133;
 }
@@ -33,4 +32,16 @@ input#QuickSearchQuery {
 .secondaryContent {
     background-color: #4a4a4a;
     padding: 8px;
+}
+
+.pairs dt, .pairsInline dt, .pairsRows dt, .pairsColumns dt, .pairsJustified dt {
+    color: #c7c7c7;
+}
+
+.messageList .message {
+    margin: 16px auto;
+    background-color: #5d5d5d;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
 }
