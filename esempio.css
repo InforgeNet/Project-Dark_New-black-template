@@ -9,6 +9,14 @@ body {
  border: 1px solid #526066;
 }
 
+.sectionMain {
+    background-color: #bdb9b9;
+    padding: 8px;
+    margin: 16px auto;
+    border: 1px solid #bdb9b9;
+    border-radius: 4px;
+}
+
 .breadcrumb {
     background-color: #c3d6de;
     border: 1px solid #9fb0b7;
@@ -29,6 +37,10 @@ input#QuickSearchQuery {
     border-radius: 2px;
 }
 
+.nodeList {
+    border-radius: 4px!important;
+}
+
 .nodeList .categoryStrip {
     border-radius: 0px;
     border-top-left-radius: 4px;
@@ -45,8 +57,9 @@ input#QuickSearchQuery {
     border-radius: 0px!important;
 }
 
-.nodeList {
-    border-radius: 4px!important;
+.primaryContent {
+    background-color: #f5f5f5;
+    padding: 8px;
 }
 
 .secondaryContent {
@@ -64,19 +77,6 @@ input#QuickSearchQuery {
     padding: 8px;
     border: 1px solid black;
     border-radius: 4px;
-}
-
-.sectionMain {
-    background-color: #bdb9b9;
-    padding: 8px;
-    margin: 16px auto;
-    border: 1px solid #bdb9b9;
-    border-radius: 4px;
-}
-
-.primaryContent {
-    background-color: #f5f5f5;
-    padding: 8px;
 }
 
 .messageText {
