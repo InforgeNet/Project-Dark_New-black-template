@@ -1,5 +1,5 @@
-/* Theme Inforge NET Work in progress
-*/
+/* Theme Inforge NET Work in progress */
+
 body {
   background-color: #2E3133;
 }
@@ -9,9 +9,17 @@ body {
  border: 1px solid #526066;
 }
 
+.sectionMain {
+    background-color: #bdb9b9;
+    padding: 8px;
+    margin: 16px auto;
+    border: 1px solid #bdb9b9;
+    border-radius: 4px;
+}
+
 .breadcrumb {
-    background-color: #c3d6de;
-    border: 1px solid #9fb0b7;
+    background-color: #27292b;
+    border: 1px solid #212325;
 }
 
 .breadcrumb .crust .arrow {
@@ -19,7 +27,7 @@ body {
 }
 
 .breadcrumb .crust a.crumb {
-    background-color: #c3d6de;
+    background-color: #27292b;
 }
 
 input#QuickSearchQuery {
@@ -27,6 +35,46 @@ input#QuickSearchQuery {
     border-color: #505152;
     color: rgb(255,255,255);
     border-radius: 2px;
+}
+
+.nodeList {
+    border-radius: 4px!important;
+}
+
+.tabs li a, .tabs.noLinks li {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(39, 41, 43);
+    background-color: rgb(74, 74, 74);
+}
+
+.nodeList .categoryStrip {
+    border-radius: 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: rgb(39, 41, 43);
+}
+
+.tabs li.active a {
+    background: #27292b;
+}
+
+.sidebar .section .secondaryContent {
+    border: 1px solid #404040;
+}
+
+.nodeList .categoryForumNodeInfo, .nodeList .forumNodeInfo, .nodeList .pageNodeInfo, .nodeList
+.linkNodeInfo {
+    background-color: #4a4a4a;
+    border-radius: 0px!important;
+}
+
+.node .nodeDescription {
+    color: #f5f5f5;
+}
+
+.primaryContent {
+    background-color: #f5f5f5;
+    padding: 8px;
 }
 
 .secondaryContent {
@@ -44,19 +92,6 @@ input#QuickSearchQuery {
     padding: 8px;
     border: 1px solid black;
     border-radius: 4px;
-}
-
-.sectionMain {
-    background-color: #bdb9b9;
-    padding: 8px;
-    margin: 16px auto;
-    border: 1px solid #bdb9b9;
-    border-radius: 4px;
-}
-
-.primaryContent {
-    background-color: #f5f5f5;
-    padding: 8px;
 }
 
 .messageText {
@@ -106,3 +141,26 @@ input#QuickSearchQuery {
     font-size: 13px;
     border: 1px solid #433f3f;
     border-top: 2px solid rgb(73, 147, 197); }
+
+.breadcrumb .crust .arrow {
+    font-size: 16px;
+    border: 20px solid #27292b;
+    border-right: 1px none black;
+    border-left-width: 10px;
+    border-left-color: rgb(39, 41, 43);
+    -moz-border-right-colors: rgb(226, 226, 226);
+   
+}
+
+.breadcrumb .crust .arrow span {
+    border: 20px solid #27292b;
+    border-right: 1px none #27292b;
+    border-left-width: 10px;
+    border-left-color: #27292b;
+    -moz-border-right-colors: #FFF;
+
+}
+
+.xenOverlay .formOverlay {
+    color: #f5f5f5;
+    background-color: #2e3133; }
