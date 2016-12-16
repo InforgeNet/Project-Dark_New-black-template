@@ -45,3 +45,64 @@ input#QuickSearchQuery {
     border: 1px solid black;
     border-radius: 4px;
 }
+
+.sectionMain {
+    background-color: #bdb9b9;
+    padding: 8px;
+    margin: 16px auto;
+    border: 1px solid #bdb9b9;
+    border-radius: 4px;
+}
+
+.primaryContent {
+    background-color: #f5f5f5;
+    padding: 8px;
+}
+
+.messageText {
+    font-size: 10.5pt;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    color: #d0d0d0;
+    line-height: 1.7;
+}
+
+.LikeText a {
+    color: #0e0e0e !important;
+}
+
+#permissionCheck
+#stopper{
+        background: linear-gradient(to bottom, rgba(95, 93, 93, 0) 0%,rgb(92, 106, 112) 100%);
+}
+
+#permissionCheck {
+    width: 100%;
+    color: #ded7d7;
+    overflow: hidden;
+}
+
+#permissionCheck .ok {
+    color: #222f22;
+}
+
+.bbCodeQuote .attribution {
+    color: rgb(52,77,93);
+    background-color: #9a9a9a;
+    background-repeat: repeat-x;
+    background-position: top;
+    border-bottom: 1px solid #c3bdbd;
+    border-left: 2px solid #9a9a9a;
+}
+
+.bbCodeQuote .quoteContainer {
+    background-color: #9a9a9a;
+    background-repeat: repeat-x;
+    background-position: top;
+    padding: 8px;
+    border-left: 2px solid rgb(70, 102, 124);
+}
+
+.Menu {
+    font-size: 13px;
+    border: 1px solid #433f3f;
+    border-top: 2px solid rgb(73, 147, 197); }
