@@ -1,5 +1,5 @@
-/* Theme Inforge NET Work in progress
-*/
+/* Theme Inforge NET Work in progress */
+
 body {
   background-color: #2E3133;
 }
@@ -18,8 +18,8 @@ body {
 }
 
 .breadcrumb {
-    background-color: #c3d6de;
-    border: 1px solid #9fb0b7;
+    background-color: #27292b;
+    border: 1px solid #212325;
 }
 
 .breadcrumb .crust .arrow {
@@ -27,7 +27,7 @@ body {
 }
 
 .breadcrumb .crust a.crumb {
-    background-color: #c3d6de;
+    background-color: #27292b;
 }
 
 input#QuickSearchQuery {
@@ -41,10 +41,21 @@ input#QuickSearchQuery {
     border-radius: 4px!important;
 }
 
+.tabs li a, .tabs.noLinks li {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(39, 41, 43);
+    background-color: rgb(74, 74, 74);
+}
+
 .nodeList .categoryStrip {
     border-radius: 0px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    background-color: rgb(39, 41, 43);
+}
+
+.tabs li.active a {
+    background: #27292b;
 }
 
 .sidebar .section .secondaryContent {
@@ -55,6 +66,10 @@ input#QuickSearchQuery {
 .linkNodeInfo {
     background-color: #4a4a4a;
     border-radius: 0px!important;
+}
+
+.node .nodeDescription {
+    color: #f5f5f5;
 }
 
 .primaryContent {
