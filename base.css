@@ -149,7 +149,13 @@ input#QuickSearchQuery {
     border-left-width: 10px;
     border-left-color: rgb(39, 41, 43);
     -moz-border-right-colors: rgb(226, 226, 226);
-   
+    display: block;
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    z-index: 50;
+    width: 0px;
+    height: 0px;
 }
 
 .breadcrumb .crust .arrow span {
@@ -164,3 +170,38 @@ input#QuickSearchQuery {
 .xenOverlay .formOverlay {
     color: #f5f5f5;
     background-color: #2e3133; }
+
+.secondaryContent a {
+    color: #f5f5f5;
+}
+
+.Menu .secondaryContent {
+    background-color: #4a4a4a;
+}
+
+.Menu .primaryContent {
+    background-color: #4a4a4a;
+}
+
+.node .nodeLastPost {
+    font-size: 11px;
+    background-color: #8a8787;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 15px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    width: 220px;
+    height: 33px;
+}
+
+body .muted, body a.muted, body .muted a {
+    color: #e8e8e8;
+}
+
