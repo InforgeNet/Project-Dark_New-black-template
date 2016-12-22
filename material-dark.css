@@ -1,0 +1,122 @@
+/*
+
+  Theme:      Material
+  Style:      Dark
+  Creator:    Dazorn
+  Copyright:  2016
+  
+*/
+
+/* Header */
+
+#header #navigation {
+  
+  background-color: #212121;
+  
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+  
+}
+
+.navTabs {
+  
+  height: 50px;
+  
+}
+#logo_small a {
+  
+  height: 50px;
+  
+  line-height: 50px;
+  
+  padding: 0 12px;
+  
+}
+
+.navTabs .navLink,
+.navTabs .SplitCtrl {
+  
+  padding-right: 12px;
+  
+  padding-left: 12px;
+  
+  height: 50px;
+  
+  line-height: 50px;
+  
+}
+
+#userBar .navTabs .navLink,
+#userBar .navTabs .SplitCtrl {
+  
+  line-height: 50px;
+  
+  height: 50px;
+  
+}
+
+#userBar .navTabs .navTab.Popup.PopupOpen,
+#userBar .navTabs .navTab.selected.PopupOpen .navLink,
+.navTabs .navTab.Popup.PopupOpen,
+.navTabs .navTab.selected.PopupOpen .navLink,
+.Popup .PopupControl.PopupOpen,
+.Popup.PopupContainerControl.PopupOpen {
+  
+  background-color: rgba(0, 0, 0, .3);
+  
+}
+
+#bigheader_container {
+  
+  text-align: center;
+  
+}
+
+#bigheader {
+  
+  -webkit-box-shadow: 0 -2px 3px rgba(0, 0, 0, .3) inset;
+  
+  -moz-box-shadow: 0 -2px 3px rgba(0, 0, 0, .3) inset;
+  
+  box-shadow: 0 -2px 3px rgba(0, 0, 0, .3) inset;
+  
+}
+
+/* Main Container */
+
+#content .pageContent {
+  
+  border: 0;
+  
+  border-radius: 3px;
+  
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .2);
+  
+}
+
+.sidebar .section .secondaryContent {
+  
+    border: none;
+  
+    border-radius: 3px;
+  
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+  
+}
+
+.sidebar .section .secondaryContent.mostLikesAvatarHeap {
+  
+    box-shadow: none;
+  
+}
+
+.mostLikesAvatarHeap {
+  
+    margin-left: 0;
+  
+}
+
+.sidebar .visitorPanel .avatar img {
+  
+    box-shadow: 0 0 2px 1px rgba(0,0,0,.2);
+  
+}
