@@ -92,3 +92,25 @@
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, .2);
   
 }
+
+.sidebar .section .secondaryContent {
+  
+    border: none;
+  
+    border-radius: 3px;
+  
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+  
+}
+
+.sidebar .section .secondaryContent.mostLikesAvatarHeap {
+  
+    box-shadow: none;
+  
+}
+
+.mostLikesAvatarHeap {
+  
+    margin-left: 0;
+  
+}
