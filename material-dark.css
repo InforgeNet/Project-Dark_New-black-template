@@ -7,6 +7,22 @@
   
 */
 
+/* General */
+
+body{
+  
+  color: #FFF;
+  
+}
+
+body .muted, 
+body a.muted,
+body .muted a {
+  
+  color: #FFF;
+  
+}
+
 /* Header */
 
 #header #navigation {
@@ -22,6 +38,7 @@
   height: 50px;
   
 }
+
 #logo_small a {
   
   height: 50px;
@@ -81,9 +98,58 @@
   
 }
 
+.Menu {
+ 
+  border: 1px solid #424242;
+  
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  
+}
+
+.Menu .primaryContent {
+  
+  background-color: #424242;
+  
+}
+
+.Menu .secondaryContent {
+  
+	background-color: #666;
+  
+}
+
+.Menu .sectionFooter {
+  
+  background-color: #424242;
+  
+}
+
+.sectionFooter a {
+  
+  color: #FFF;
+  
+}
+
+.navPopup .listItem {
+    overflow: hidden;
+    zoom: 1;
+    padding: 5px 0;
+    border-bottom: 0;
+}
+
+.navPopup .PopupItemLinkActive:hover {
+  
+    border-radius: 0;
+  
+    background-color: #515151;
+  
+}
+
 /* Main Container */
 
 #content .pageContent {
+  
+  background-color: #424242;
   
   border: 0;
   
@@ -93,30 +159,91 @@
   
 }
 
+/* Sections */
+
+.secondaryContent{
+ 
+  background-color: #212121;
+  
+}
+
 .sidebar .section .secondaryContent {
   
-    border: none;
+  border: none;
+
+  border-radius: 3px;
+
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+
+  transition: .5s;
   
-    border-radius: 3px;
+}
+
+.sidebar .section .secondaryContent:hover{
+ 
+  box-shadow: 0 4px 10px rgba(0,0,0,.3);
   
-    box-shadow: 0 0 5px rgba(0,0,0,.3);
+  transition: .3s;
   
 }
 
 .sidebar .section .secondaryContent.mostLikesAvatarHeap {
   
-    box-shadow: none;
+  box-shadow: none;
   
 }
 
 .mostLikesAvatarHeap {
   
-    margin-left: 0;
+  margin-left: 0;
   
 }
 
 .sidebar .visitorPanel .avatar img {
   
-    box-shadow: 0 0 2px 1px rgba(0,0,0,.2);
+  box-shadow: 0 0 2px 1px rgba(0,0,0,.2);
+  
+}
+
+.sidebar .section .primaryContent h3,
+.sidebar .section .secondaryContent h3, 
+.profilePage .mast .section.infoBlock h3 {
+  
+  color: #FFF;
+
+  background-color: #424242;
+
+  border: 1px solid #424242;
+
+  border-radius: 3px;
+  
+}
+
+.secondaryContent a {
+  
+  color: #FFF;
+  
+}
+
+.secondaryContent a:hover {
+  
+	color: #FFF;
+  
+}
+
+#permissionCheck strong {
+  
+  color: #FFF;
+}
+
+#permissionCheck #stopper {
+  
+  background: transparent;
+
+  margin-top: -330px;
+  
+  height: 114px;
+  
+  box-shadow: 0 -14px 10px #424242 inset;
   
 }
